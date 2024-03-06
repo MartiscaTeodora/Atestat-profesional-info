@@ -1,0 +1,458 @@
+<DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<title> CEAI</title>
+<style>
+
+  body{
+      background-image: url('fundal.jpg');
+        background-size: cover;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+
+      font-family: Arial;
+      color: #120501;
+      margin: 0;
+    padding: 0;
+  }
+
+
+  h1 {
+        font-family:arial black;
+        font-size:50px;
+        color:white;
+        margin: 0px;
+        text-align:left;
+        display:table-cell;
+        vertical-align:middle;
+        background-size: cover;
+  }
+
+
+  h5{
+        font-family:verdana;
+        font-size:30px;
+        align-content: center;
+       /* color:#ffd1f8;
+        background:#ffd1f8;*/
+        color: "#120501"
+        text-shadow:0 0 5px #999;
+        background-color: rgba(0, 128, 0, .6);
+        background-size: 100px, 50px;
+        border-radius: 10px;
+  }
+
+
+  h6{
+        font-family:verdana;
+        font-size:25px;
+        color:#ffd1f8;
+        background:#ff5805;
+  }
+
+  p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+    table{
+           <!-- margin-top: 100px;-->
+
+            margin-bottom: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            /* background: rgba(255, 208, 138, .5); */
+            <!-- opacity: .8;-->
+            color: #120501;
+   
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  <!-- formatari lista submeniu 
+
+        ul.c{
+
+          margin: 10px;
+          padding: 10px;
+          background-color:none;
+          align:  left;
+          }
+
+        div.lista {
+          text-align: left;
+          font-size: 20px;
+        }
+
+        li.c{
+          text-align: left;
+          align-content: left;
+          float: left;
+          font-size: 20px;
+        }
+
+
+ img.sus{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    
+  }
+
+  /* chestii cu patratele */
+        * {
+        margin:0;
+
+        padding:0;
+
+        font-family:'Roboto', sans-serif;
+
+        }
+
+        .container {
+
+
+        width:100%;
+
+        height:100vh;
+
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pf.jpg);
+
+        background-position:center;
+
+        background-size:cover;
+
+
+        padding-left:3%;
+
+
+        padding-right:3%;
+
+
+        box-sizing:border-box;
+
+
+        }
+
+        .navbar{
+
+        height:12%;
+
+        display:flex;
+
+        align-items:center;
+
+        }
+
+        .logo{
+
+        width:50px;
+
+        cursor:pointer;
+
+        }
+
+        .menu-icon{
+
+
+        width:30px;
+
+
+        cursor:pointer;
+
+
+        margin-left:40px;
+
+
+        }
+
+
+        nav{
+
+        flex:1;
+
+        text-align:right;
+
+        }
+
+
+         nav ul li{
+
+        list-style:none;
+
+        display:inline-block;
+
+        margin-left:60px;
+
+        }
+
+        nav ul li a{
+
+        text-decoration:none;
+
+        color:#fff;
+
+        font-size:13px;
+
+        }
+
+
+        .row{
+
+        display:flex;
+
+        height:88%;
+        align-items:center;
+
+        }
+
+
+         
+        .col{
+
+        flex-basis:50%;
+
+        }
+
+
+         
+
+
+        h1{
+
+
+        color:#fff;
+
+
+        font-size:100px;
+
+
+        }
+
+
+         
+
+
+
+
+        button{
+
+        width:160px;
+
+        color:#000;
+
+        font-size:18px;
+
+        padding:12px 0;
+
+        background:#fff;
+
+        border:0;
+
+        border-radius:20px;
+
+        outline:none;
+
+        margin-top:30px;
+
+        cursor:pointer;
+
+
+        }
+
+        .card{
+
+            width:400px;
+
+            height:530px;
+
+            display:inline-block;
+
+            border-radius:10px;
+
+            padding:15px 25px;
+
+            box-sizing:border-box;
+
+            cursor:pointer;
+
+            margin:10px 15px;
+
+            background-position:center;
+
+            background-size:cover;
+
+            translation:transfer 0.5s;
+        }
+
+
+        .card1{
+
+        background-image:url(sanatate.jpg);
+        background-color: rgba(242, 255, 249, .9);
+        }
+        .card2{
+        background-image:url(cerem.jpg);
+
+        }
+        .card3{
+        background-image:url(cult.jpg);
+        }
+        
+
+        .card:hover{
+
+        transform:translateY(-10px);
+
+        }
+        
+        .card p{
+        text-shadow:0 0 5px #000;
+        }
+
+
+</style>
+
+</head>
+
+<body >
+<br>
+
+<!-- muniul de sus-->
+<a id="sus">
+<ul>
+  <li> <a href="ceaiindex.html"> pagina principala</a></li>
+  <li> <a href="jurullumii.html"> Ceaiul in jurul lumii</a>
+    <ul>
+      
+       <li><a href="jleu.html"> Europa</a></li>
+      <li><a href="jlas.html"> Asia </a></li>
+      <li><a href="jlaf.html"> Africa </a></li>
+      <li><a href="jlam.html"> America</a></li>
+    </ul>
+  </li>
+
+  <li><a href="istorie.html"> Istoria ceaiului</a>
+   
+  </li>
+
+
+  <li><a href="util.html"> Utilizari</a>
+    <ul>
+      
+      <li><a href="exprcult.html"> Experienta culturala</a></li>
+      <li><a href="exprelig.html"> Experienta religioasa </a></li>
+      <li><a href="utmed.html"> Utilizare medicala </a></li>
+      
+    </ul>
+  </li>
+
+</ul>
+</a>
+<br>
+<br><br>
+<br>
+<br>
+<table>
+<tr>
+    <th>
+<div class="col">
+
+<!-- utilizari medicinale: titlu si text-->
+     <a href="utmed.html">
+    <div class="card card1">
+
+       
+    <table>
+        <tr height="100px">
+            
+             
+
+            <th>
+
+      <h5>Utilizari medicinale</h5>
+
+    </th>
+    </tr>
+    <tr>
+        <th>
+
+      <p>Exista numeroase studii stiintifice care vizeaza efectele benefice ale ceaiului asupra sanatatii, multe din calitatile acestuia facandu-l aproape miraculos. Ceaiul este un produs necesar functionarii optime a organismului si ar trebui sa fie prezent in dieta zilnica, ca si aliment functional.</p>
+      <br><p>
+    De la imbatranire pana la bolile cardiovasculare si cancer, totul se datoreaza efectului nociv al radicalilor liberi, care declanseaza reactii oxidative in organism. Orice substanta care blocheaza acest fenomen se numeste antioxidanta si trebuie folosita cu incredere. Incepand cu vitamina C, cel mai „banal“ antioxidant, si terminand cu mai nou descoperitii fitonutrienti (elemente prezente doar in produsele de origine vegetala), exista o preocupare majora pentru gasirea cailor de inglobare a substantelor antioxidante in tratamentul si prevenirea maladiilor.
+
+        </p>
+    </th></tr> </table></a>
+    </div>
+
+</th>
+
+<!-- experienta religioasa: titlu si text-->
+
+    <th>
+         <a href="exprelig.html">
+
+    <div class="card card2">
+        <table><tr height="100px"><th>
+      <h5>Experienta religioasa</h5>
+    </th></tr>
+    <tr><th>
+             <p>Unul dintre motivele pentru care ceaiul depășește băuturile normale pentru a deveni un bun spiritual este din cauza relației sale strânse cu religia.
+              <p>
+            Mănăstirile budiste din China promovează combinația dintre agricultură și meditație. Multe mănăstiri cresc arbori de ceai. Pe lângă consumul propriu, ei își oferă ceaiul și oamenilor de rând la diferite evenimente filantropice de la mănăstiri, astfel încât toată lumea să se bucure de dragostea lui Buddha. De-a lungul a miilor de ani de istorie a băutării ceaiului, budismul a avut o mare influență în formarea lui. În timpul dinastiei Tang și Song, budismul a fost deosebit de prosper. Popularitatea plantării de arbori de ceai și a băutului de ceai în rândul călugărilor budiști a ajutat la răspândirea obiceiului de a bea ceai la oamenii de rând.
+            </p>
+            <br>
+            <p>
+            O <b>ceremonie a ceaiului</b> este o formă ritualizată de preparare a ceaiului practicată în cultura asiatică de chinezi, coreeni, japonezi, indieni, vietnamezi și taiwanezi. Ceremonia ceaiului, tradusă literalmente drept „calea ceaiului” în japoneză, „eticheta ceaiului” sau „ritualul ceaiului” în coreeană și „arta ceaiului” în chineză, este o activitate culturală care implică prepararea și prezentarea ceremonială a ceaiului.
+            </p>
+
+        </p>
+    </th>
+    </tr>
+
+    </table>
+    </div> </a>
+</th>
+
+<!-- experienta culturala: titlu si text-->
+
+    <th>
+        <a href="exprcult.html">
+    <div class="card card3">
+         <table><tr height="100px"><th>
+      <h5>Experienta culturala</h5>
+    </th>
+    </tr>
+    <tr>
+        <th>
+      <p>În multe țări, ceaiul este mult mai mult decât o simplă băutură. Este adesea profund conectat cu cultura și oamenii. Ceremonia japoneză a ceaiului este despre conectarea la nivel spiritual, în timp ce în Maroc ceaiul este servit ca semn de ospitalitate. Descoperiți diferitele tradiții din jurul acestei băuturi calde.
+        </p>
+    </th>
+    </tr>
+    </table>
+    </div></a>
+</th>
+    
+</table>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+</body>
